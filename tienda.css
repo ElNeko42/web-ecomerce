@@ -1,0 +1,241 @@
+header {
+    font-size: 15px;
+    font-style: normal;
+}
+
+body,
+div {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+#top-bar {
+    background: white;
+    padding: 12px;
+    position: relative;
+    z-index: 100;
+}
+
+#top-bar div {
+    font-size: 40px;
+    color: white;
+}
+
+#nav li {
+    list-style: none;
+    padding: 30px 40px;
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav i {
+    width: 30px;
+    color: white;
+}
+
+#nav {
+    margin-top: -100%;
+    background-color: black;
+}
+
+#icono {
+    font-family: century gothic;
+}
+
+.login-button a {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border-color: white;
+}
+
+#titulo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#first {
+    display: flex;
+}
+
+#second {
+    margin-left: 550px;
+    display: flex;
+}
+
+#first-second {
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#portatil-text {
+    max-width: 400px;
+}
+
+#saber-mas-1 {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: black;
+    padding: 5px;
+}
+
+.images {
+    height: 400px;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#portatiles {
+    margin-left: 150px;
+}
+
+#productos {
+    width: 850px;
+    margin-left: 100px;
+    float: right;
+    max-inline-size: 1000px;
+}
+
+#single-product {
+    margin-left: 30px;
+}
+
+#filter {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 12px;
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#checkbox {
+    text-align: left;
+}
+
+#price {
+    text-align: left;
+}
+
+@keyframes aparecer {
+    0% {
+        margin-top: -100%;
+    }
+    100% {
+        margin-top: 0%;
+    }
+}
+
+@keyframes desaparecer {
+    0% {
+        margin-top: 0%;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #top-bar {
+        display: none;
+    }
+    #nav {
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    #second {
+        margin: auto;
+        justify-content: right;
+    }
+}
+
+.productosDiv {
+    height: 300px;
+    text-align: center;
+}
+
+#shop {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 425px;
+    border-radius: 6px;
+    border-style: solid;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+#shop h2 {
+    margin-left: 140px;
+}
+
+.pre-cesta {
+    display: inline-block;
+}
+
+#cesta_product {
+    background-color: #fff;
+}
+
+.productosDiv2 {
+    background-color: white;
+}
+
+.peque {
+    border-style: solid;
+    border-radius: 4px;
+    border-color: var(--pag);
+    background-color: rgb(214, 108, 108);
+}
+
+.num {
+    border-radius: 4px;
+    border-color: var(--pag);
+    background-color: var(--pag);
+    width: 60px;
+}
+
+.nombre_cesta {
+    border-radius: 4px;
+    border-color: var(--pag);
+    background-color: var(--pag);
+    width: 200px;
+}
+
+table#tablaFactura {
+    margin-top: 60px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tr,
+td {
+    color: #2c3e50;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2c3e50;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+}
